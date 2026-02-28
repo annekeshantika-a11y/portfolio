@@ -1,0 +1,965 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Anneke Alya Shantika | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <!-- Scroll progress -->
+  <div id="scrollProgress" aria-hidden="true"></div>
+
+  <!-- Ambient background blobs -->
+  <div class="bg">
+    <div class="blob b1"></div>
+    <div class="blob b2"></div>
+    <div class="blob b3"></div>
+    <div class="grid-noise" aria-hidden="true"></div>
+  </div>
+
+  <!-- NAV -->
+  <header class="topbar" id="topbar">
+    <a class="logo" href="#home" aria-label="Go to top">
+      <span class="logo-dot"></span> AAS
+    </a>
+
+    <nav class="nav" id="nav">
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#certs">Certificates</a>
+      <a href="#experience">Experience</a>
+      <a href="#contact" class="btn small">Contact</a>
+    </nav>
+
+    <div class="nav-actions">
+      <button class="icon-btn" id="themeToggle" aria-label="Toggle theme" title="Toggle theme">
+        <span class="icon">☾</span>
+      </button>
+      <button class="icon-btn burger" id="burger" aria-label="Open menu" title="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Mobile drawer -->
+  <div class="drawer" id="drawer" aria-hidden="true">
+    <div class="drawer-card">
+      <div class="drawer-top">
+        <b>Menu</b>
+        <button class="icon-btn" id="drawerClose" aria-label="Close menu">✕</button>
+      </div>
+      <a href="#about" class="drawer-link">About</a>
+      <a href="#projects" class="drawer-link">Projects</a>
+      <a href="#certs" class="drawer-link">Certificates</a>
+      <a href="#experience" class="drawer-link">Experience</a>
+      <a href="#contact" class="drawer-link">Contact</a>
+    </div>
+  </div>
+
+  <main>
+    <!-- HERO -->
+    <section id="home" class="section hero">
+      <div class="hero-left reveal">
+        <p class="pill">
+          <span class="dot"></span>
+          Data Analytics • Visualization • Leadership
+        </p>
+
+        <h1 class="headline">
+          <span class="grad">Anneke Alya Shantika</span>
+        </h1>
+
+        <p class="subtitle">
+          Statistics student at Jenderal Soedirman University specializing in data analysis to transform complex data into structured and actionable insights for decision-making. Actively engaged in organizational activities, with experience in publication design and public speaking.
+        </p>
+
+        <div class="cta">
+          <a class="btn" href="#projects">See Projects</a>
+          <a class="btn ghost" href="mailto:annekealyas@gmail.com">Email Me</a>
+          <a class="btn ghost" href="https://www.linkedin.com/in/anne-statistika" target="_blank" rel="noreferrer">LinkedIn</a>
+        </div>
+
+
+      </div>
+
+      <div class="hero-right reveal">
+        <div class="profile-card">
+          <div class="profile-top">
+            <img class="avatar" src="assets/photo.jpg" alt="Foto Anneke" />
+            <div class="profile-meta">
+              <div class="name">Anneke Alya Shantika</div>
+              <div class="role">Statistics Student • Data Analytics</div>
+              <div class="chips">
+                <span class="chip">R Studio</span>
+                <span class="chip">Excel</span>
+                <span class="chip">Canva</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="profile-bottom">
+            <div class="mini-grid">
+              <div class="mini">
+                <div class="mini-title">Strength</div>
+                <div class="mini-text">Insight storytelling + teamwork</div>
+              </div>
+              <div class="mini">
+                <div class="mini-title">Focus</div>
+                <div class="mini-text">Dashboard, reporting, admin data</div>
+              </div>
+            </div>
+
+            <div class="glow-line"></div>
+            <div class="profile-links">
+              <a href="#contact" class="link">Contact</a>
+              <span>•</span>
+              <a href="#certs" class="link">See Certificates</a>
+              <span>•</span>
+              <a href="#experience" class="link">Experience</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section">
+      <div class="section-head reveal">
+        <h2>About</h2>
+        <p class="lead">
+          Turning data into insight, and insight into impact.
+        </p>
+      </div>
+
+      <div class="grid two">
+        <div class="panel reveal">
+          <h3>Core Skills</h3>
+          <div class="chips big">
+            <span class="chip">Data Visualization</span>
+            <span class="chip">Dashboarding</span>
+            <span class="chip">Excel</span>
+            <span class="chip">R Studio</span>
+            <span class="chip">Google Suite</span>
+            <span class="chip">Canva Design</span>
+            <span class="chip">Administration</span>
+            <span class="chip">Public Speaking</span>
+          </div>
+        </div>
+
+        <div class="panel reveal">
+          <h3>Highlights</h3>
+          <ul class="nice">
+            <li><b>Leadership:</b> koordinator divisi + monitoring program kerja</li>
+            <li><b>Docs:</b> surat, proposal, laporan, notulensi rapat</li>
+            <li><b>Communication:</b> MC/moderator, briefing juri, koordinasi lintas divisi</li>
+          </ul>
+            
+        </div>
+      </div>
+    </section>
+
+
+
+  
+
+    <!-- PROJECTS -->
+    <section id="projects" class="section">
+      <div class="section-head reveal">
+        <h2>Projects</h2>
+      </div>
+
+      <div class="cards three" id="projectGrid">
+        <!-- Example cards (edit freely) -->
+        <article class="card project">
+  <div class="thumb">
+    <span class="badge2">DASHBOARD</span>
+
+    <iframe 
+      src="assets/Transaction_Dashboard.pdf"
+      width="100%"
+      height="250"
+      style="border:none; border-radius:12px;">
+    </iframe>
+
+  </div>
+
+  <div class="card-body">
+    <h3>Transaction Dashboard</h3>
+    <p class="muted">Interactive sales & revenue analysis dashboard.</p>
+
+    <div class="meta">
+      <span class="pill2">Data Visualization</span>
+      <span class="pill2">Dashboard</span>
+    </div>
+
+    <a class="btn small" 
+       href="assets/Transaction_Dashboard.pdf" 
+       target="_blank">
+       Open Full PDF
+    </a>
+  </div>
+</article>
+<article class="card project">
+  <div class="thumb">
+    <span class="badge2">STATISTICS</span>
+
+    <iframe 
+      src="assets/jurnal-survival-dbd.pdf"
+      width="100%"
+      height="260"
+      style="border:none; border-radius:12px;">
+    </iframe>
+  </div>
+
+  <div class="card-body">
+    <h3>Survival Analysis – Cox PH vs Weibull</h3>
+    <p class="muted">
+      Comparative modeling of DBD hospitalization data using 
+      Cox Proportional Hazard and Weibull distribution.
+    </p>
+
+    <div class="meta">
+      <span class="pill2">Survival Analysis</span>
+      <span class="pill2">Cox PH</span>
+      <span class="pill2">Weibull</span>
+    </div>
+
+    <a class="btn small" 
+       href="assets/jurnal-survival-dbd.pdf" 
+       target="_blank">
+       Open Full Paper
+    </a>
+  </div>
+</article>
+<article class="card project">
+  <div class="thumb">
+    <span class="badge2">STATISTICS</span>
+
+    <iframe 
+      src="assets/survival-cox-diabetes.pdf"
+      width="100%"
+      height="260"
+      style="border:none; border-radius:12px;">
+    </iframe>
+  </div>
+
+  <div class="card-body">
+    <h3>Survival Analysis – Diabetes Blindness Risk</h3>
+
+    <p class="muted">
+      Survival modeling using Cox Proportional Hazard 
+      to analyze time-to-blindness risk in diabetic patients.
+    </p>
+
+    <div class="meta">
+      <span class="pill2">Cox PH</span>
+      <span class="pill2">Hazard Ratio</span>
+      <span class="pill2">Medical Data</span>
+    </div>
+
+    <a class="btn small" 
+       href="assets/survival-cox-diabetes.pdf" 
+       target="_blank">
+       Open Full Paper
+    </a>
+  </div>
+</article>
+
+
+<article class="card project"
+  data-type="data"
+  data-title="SIGAP – Input Data Pasien"
+  data-desc="Website form input data pasien (deploy di Vercel)."
+  data-tags="Web App,Vercel,Frontend"
+  data-img="assets/sigap-preview.jpg"
+  data-link="https://pemweb-five.vercel.app/">
+
+  <div class="thumb">
+  <span class="badge2">WEB</span>
+  <img src="assets/sigap-preview.jpg" class="project-img">
+</div>
+
+  <div class="card-body">
+    <h3>SIGAP – Input Data Pasien</h3>
+    <p class="muted">Live demo website (Vercel).</p>
+
+    <div class="meta">
+      <span class="pill2">Vercel</span>
+      <span class="pill2">Web App</span>
+      <span class="pill2">Form UI</span>
+    </div>
+
+    <a class="btn small" href="https://pemweb-five.vercel.app/" target="_blank" rel="noreferrer">
+      Open Live Website
+    </a>
+  </div>
+</article>
+
+<article class="card project">
+  <div class="thumb">
+    <span class="badge2">NLP</span>
+
+    <iframe 
+      src="assets/emotion-analysis-nlp.pdf"
+      width="100%"
+      height="260"
+      style="border:none; border-radius:12px;">
+    </iframe>
+  </div>
+
+  <div class="card-body">
+    <h3>Emotion Analysis – NLP & Machine Learning</h3>
+
+    <p class="muted">
+      Hybrid lexicon-based and Logistic Regression model
+      for emotion detection in Indonesian literary text.
+    </p>
+
+    <div class="meta">
+      <span class="pill2">NLP</span>
+      <span class="pill2">TF-IDF</span>
+      <span class="pill2">Logistic Regression</span>
+      <span class="pill2">Emotion Detection</span>
+    </div>
+
+    <a class="btn small" 
+       href="assets/emotion-analysis-nlp.pdf" 
+       target="_blank">
+       Open Full Report
+    </a>
+  </div>
+</article>
+
+<article class="card project">
+  <div class="thumb">
+    <span class="badge2">DATA ANALYSIS</span>
+
+    <iframe 
+      src="assets/climate-dbd-analysis.pdf"
+      width="100%"
+      height="260"
+      style="border:none; border-radius:12px;">
+    </iframe>
+  </div>
+
+  <div class="card-body">
+    <h3>Climate & Dengue Statistical Analysis</h3>
+
+    <p class="muted">
+      Correlation and multiple regression modeling 
+      of climate factors affecting Dengue cases.
+    </p>
+
+    <div class="meta">
+      <span class="pill2">Correlation</span>
+      <span class="pill2">Regression</span>
+      <span class="pill2">R Programming</span>
+      <span class="pill2">Data Visualization</span>
+    </div>
+
+    <a class="btn small" 
+       href="assets/climate-dbd-analysis.pdf" 
+       target="_blank">
+       Open Full Report
+    </a>
+  </div>
+</article>
+
+
+<article class="card project">
+  <div class="thumb">
+    <span class="badge2">DATA ENGINEERING</span>
+
+    <iframe 
+      src="assets/komstat-vidio.pdf"
+      width="100%"
+      height="260"
+      style="border:none; border-radius:12px;">
+    </iframe>
+  </div>
+
+  <div class="card-body">
+    <h3>Web Scraping & Dashboard – Vidio App Reviews</h3>
+
+    <p class="muted">
+      Automated scraping pipeline using HTML & Hybrid 
+      (JavaScript × Node.js × JSON) integrated with 
+      R Shiny dashboard for sentiment and trend analysis.
+    </p>
+
+    <div class="meta">
+      <span class="pill2">R Shiny</span>
+      <span class="pill2">Node.js</span>
+      <span class="pill2">JSON</span>
+      <span class="pill2">Text Mining</span>
+    </div>
+
+    <a class="btn small" 
+       href="assets/komstat-vidio.pdf" 
+       target="_blank">
+       Open Full Report
+    </a>
+  </div>
+</article>
+
+<article class="card project">
+  <div class="thumb">
+    <span class="badge2">INFOGRAPHIC</span>
+
+    <img src="assets/dbd-infographic.jpg"
+     class="project-img open-media"
+     data-title="Infographic: Climate & Dengue Analysis"
+     data-img="assets/dbd-infographic.jpg"
+     data-desc="Klik untuk melihat fullscreen & zoom detail.">
+  </div>
+
+  <div class="card-body">
+    <h3>Infographic: Climate & Dengue Analysis</h3>
+
+    <p class="muted">
+      Data-driven health infographic presenting
+      climate impact on Dengue incidence using
+      correlation & regression analysis.
+    </p>
+    
+
+    <div class="meta">
+      <span class="pill2">Data Visualization</span>
+      <span class="pill2">Public Health</span>
+      <span class="pill2">R Analysis</span>
+      <span class="pill2">Infographic Design</span>
+    </div>
+    <a class="btn small" 
+       href="assets/dbd-infographic.jpg" 
+       target="_blank">
+       Open Full Infographic
+    </a>
+  </div>
+</article>
+
+<article class="card project reveal">
+  <div class="thumb">
+    <span class="badge2">CREATIVE CAMPAIGN</span>
+
+    <img src="assets/literasi-budaya-campaign.jpg"
+         alt="Literasi Budaya Campaign"
+         class="project-img open-media"
+         data-title="Bangga Jadi Anak Bangsa & Stop Jaga Warisan"
+         data-img="assets/literasi-budaya-campaign.jpg"
+         data-desc="Creative social media campaign promoting cultural literacy and positive digital engagement.">
+  </div>
+
+  <div class="card-body">
+    <h3>Digital Literacy & Cultural Awareness Campaign</h3>
+
+    <p class="muted">
+      Social media-based visual campaign encouraging positive digital behavior
+      and appreciation of Indonesian cultural heritage.
+    </p>
+
+    <div class="meta">
+      <span class="pill2">Visual Design</span>
+      <span class="pill2">Campaign Concept</span>
+      <span class="pill2">Digital Literacy</span>
+      <span class="pill2">Creative Communication</span>
+    </div>
+
+    <a class="btn small" 
+       href="assets/literasi-budaya-campaign.jpg" 
+       target="_blank">
+       Open Full Campaign
+    </a>
+  </div>
+</article>
+
+<article class="card project reveal">
+  <div class="thumb">
+    <span class="badge2">RESEARCH PROJECT</span>
+
+    <img src="assets/optimasi-impetigo-research.jpg"
+         alt="Optimasi Impetigo Research Poster"
+         class="project-img open-media"
+         data-title="Optimasi – Ekstraksi Senyawa Aktif Tanaman Patah Tulang"
+         data-img="assets/optimasi-impetigo-research.jpg"
+         data-desc="Research project on active compound extraction for antibacterial impetigo treatment.">
+  </div>
+
+  <div class="card-body">
+    <h3>Active Compound Extraction – Antibacterial Study</h3>
+
+    <p class="muted">
+      Experimental research on phorbol ester extraction from Euphorbia tirucalli
+      for antibacterial application in impetigo treatment.
+    </p>
+
+    <div class="meta">
+      <span class="pill2">Experimental Research</span>
+      <span class="pill2">Antibacterial Study</span>
+      <span class="pill2">Natural Product</span>
+      <span class="pill2">Scientific Poster</span>
+    </div>
+
+    <a class="btn small" 
+       href="assets/literasi-budaya-campaign.jpg" 
+       target="_blank">
+       Open Full Campaign
+    </a>
+  </div>
+</article>
+
+<article class="card project reveal">
+  <div class="thumb">
+    <span class="badge2">BUSINESS INNOVATION</span>
+
+    <img src="assets/self-checkout-supermarket.jpg"
+         alt="Self Checkout Supermarket Innovation"
+         class="project-img open-media"
+         data-title="Inovasi Pembayaran Self-Checkout"
+         data-img="assets/self-checkout-supermarket.jpg"
+         data-desc="Business innovation analysis on self-checkout systems in Indonesian supermarkets.">
+  </div>
+
+  <div class="card-body">
+    <h3>Self-Checkout System Innovation</h3>
+
+    <p class="muted">
+      Literature-based analysis evaluating efficiency, customer satisfaction,
+      and operational benefits of self-checkout systems in modern retail.
+    </p>
+
+    <div class="meta">
+      <span class="pill2">Business Analysis</span>
+      <span class="pill2">Retail Tech</span>
+      <span class="pill2">System Innovation</span>
+      <span class="pill2">Service Efficiency</span>
+    </div>
+
+    <a class="btn small" 
+       href="assets/self-checkout-supermarket.jpg" 
+       target="_blank">
+       Open Full Poster
+    </a>
+  </div>
+</article>
+
+<article class="card project reveal">
+  <div class="thumb">
+    <span class="badge2">SAFETY CAMPAIGN</span>
+
+    <img src="assets/fire-smart-campaign.jpg"
+         alt="Fire Smart Campaign"
+         class="project-img open-media"
+         data-title="Fire Smart: Protect Yourself"
+         data-img="assets/fire-smart-campaign.jpg"
+         data-desc="Public safety campaign promoting early fire detection, rapid response, and APAR usage awareness.">
+  </div>
+
+  <div class="card-body">
+    <h3>Fire Smart – Public Safety Campaign</h3>
+
+    <p class="muted">
+      Awareness campaign encouraging early detection,
+      quick response, and proper APAR usage
+      to reduce fire impact in public facilities.
+    </p>
+
+    <div class="meta">
+      <span class="pill2">Public Safety</span>
+      <span class="pill2">Visual Campaign</span>
+      <span class="pill2">Risk Communication</span>
+      <span class="pill2">Infographic Design</span>
+    </div>
+
+    <a class="btn small" 
+       href="assets/fire-smart-campaign.jpg" 
+       target="_blank">
+       Open Full Poster
+    </a>
+  </div>
+</article>
+
+<article class="card project reveal">
+  <div class="thumb">
+    <span class="badge2">CLIMATE POLICY</span>
+
+    <img src="assets/pangan-tangguh-krisis-iklim.jpg"
+         alt="Pangan Tangguh di Tengah Krisis Iklim"
+         class="project-img open-media"
+         data-title="Pangan Tangguh di Tengah Krisis Iklim"
+         data-img="assets/pangan-tangguh-krisis-iklim.jpg"
+         data-desc="Infographic analysis on food security, climate crisis impact, and agricultural adaptation strategies.">
+  </div>
+
+  <div class="card-body">
+    <h3>Food Security & Climate Adaptation Analysis</h3>
+
+    <p class="muted">
+      Policy-oriented infographic exploring Indonesia’s food resilience,
+      agricultural productivity trends (2020–2024),
+      and adaptive strategies in response to climate change.
+    </p>
+
+    <div class="meta">
+      <span class="pill2">Food Security</span>
+      <span class="pill2">Climate Adaptation</span>
+      <span class="pill2">Agricultural Policy</span>
+      <span class="pill2">Data Communication</span>
+    </div>
+
+    <a class="btn small" 
+       href="assets/pangan-tangguh-krisis-iklim.jpg" 
+       target="_blank">
+       Open Full Poster
+    </a>
+  </div>
+</article>
+
+      </div>
+    </section>
+
+
+
+
+    <!-- CERTS -->
+    <section id="certs" class="section">
+  <div class="section-head reveal">
+    <h2>Certification & Academic Training</h2>
+    <p class="lead">Continuous learning in statistics & machine learning.</p>
+  </div>
+
+  <div class="timeline">
+
+    <!-- Sertifikat 1 -->
+    <div class="t-item reveal">
+      <div class="t-dot"></div>
+      <div class="t-card">
+        <div class="t-top">
+          <h3>Regression in Machine Learning</h3>
+          <span class="t-year">September 2025</span>
+        </div>
+        <ul class="nice">
+          <li>Seminar on regression modeling in ML context</li>
+          <li>Discussed predictive analytics applications</li>
+          <li>Department of Mathematics, FMIPA UNSOED</li>
+        </ul>
+        <a class="btn-gradient" 
+           href="assets/sertifikat-regression-ml-2025.pdf" 
+           target="_blank">
+           View Certificate
+        </a>
+      </div>
+    </div>
+
+    <!-- Sertifikat 2 -->
+    <div class="t-item reveal">
+      <div class="t-dot"></div>
+      <div class="t-card">
+        <div class="t-top">
+          <h3>Linear Regression from Geometric Perspective</h3>
+          <span class="t-year">July 2025</span>
+        </div>
+        <ul class="nice">
+          <li>Academic lecture on geometric interpretation of regression</li>
+          <li>Strengthened theoretical foundation in statistical modeling</li>
+          <li>Statistics Study Program, FMIPA UNSOED</li>
+        </ul>
+        <a class="btn-gradient" 
+           href="assets/sertifikat-linear-regression-2025.pdf" 
+           target="_blank">
+           View Certificate
+        </a>
+      </div>
+    </div>
+
+    <div class="t-item reveal">
+        <div class="t-dot"></div>
+        <div class="t-card">
+            <div class="t-top">
+              <h3>Accelerated Life Test (ALT) in Economics</h3>
+             <span class="t-year">August 2025</span>
+            </div>
+             <ul class="nice">
+                <li>Academic lecture on Accelerated Life Testing methods</li>
+                <li>Application of survival & reliability models in economics</li>
+                <li>Statistics Study Program, FMIPA UNSOED</li>
+             </ul>
+             <a class="btn-gradient" 
+                  href="assets/sertifikat-alt-2025.pdf" 
+                 target="_blank">
+                 View Certificate
+             </a>
+        </div>
+    </div>
+
+
+    <div class="t-item reveal">
+        <div class="t-dot"></div>
+        <div class="t-card">
+             <div class="t-top">
+                 <h3>National Statistics Day Public Lecture 2025</h3>
+             <span class="t-year">September 2025</span>
+        </div>
+         <ul class="nice">
+             <li>Participated in academic lecture on official statistics</li>
+             <li>Discussed role of statistics in public policy & society</li>
+             <li>Statistics Study Program, FMIPA UNSOED</li>
+        </ul>
+             <a class="btn-gradient" 
+                href="assets/sertifikat-hsn-2025.pdf" 
+                 target="_blank">
+                 View Certificate
+            </a>
+         </div>
+    </div>
+
+    <div class="t-item reveal">
+        <div class="t-dot"></div>
+        <div class="t-card">
+            <div class="t-top">
+                 <h3>Future Trends in Statistics & Data Science</h3>
+             <span class="t-year">October 2024</span>
+            </div>
+         <ul class="nice">
+             <li>Public lecture on emerging trends in statistics & data science</li>
+            <li>Discussed evolution of statistical methods in modern analytics</li>
+            <li>FMIPA UNSOED</li>
+         </ul>
+         <a class="btn-gradient" 
+             href="assets/sertifikat-tren-statistika-2024.pdf" 
+             target="_blank">
+            View Certificate
+         </a>
+         </div>
+    </div>
+
+
+    <div class="t-item reveal">
+        <div class="t-dot"></div>
+        <div class="t-card">
+            <div class="t-top">
+                <h3>Statistical Inference for Decision Making</h3>
+             <span class="t-year">September 2024</span>
+            </div>
+         <ul class="nice">
+              <li>Seminar on statistical inference and hypothesis testing</li>
+                <li>Discussed application of inference in real-world decision making</li>
+                <li>FMIPA UNSOED</li>
+         </ul>
+         <a class="btn-gradient" 
+            href="assets/sertifikat-inference-2024.pdf" 
+            target="_blank">
+            View Certificate
+         </a>
+         </div>
+    </div>
+
+
+
+<div class="t-item reveal">
+  <div class="t-dot"></div>
+  <div class="t-card">
+    <div class="t-top">
+      <h3>Entrepreneurship Proposal Training (PMW)</h3>
+      <span class="t-year">March 2025</span>
+    </div>
+    <ul class="nice">
+      <li>Training on business proposal development</li>
+      <li>Focused on entrepreneurship ecosystem & innovation</li>
+      <li>Universitas Jenderal Soedirman</li>
+    </ul>
+    <a class="btn-gradient" 
+       href="assets/sertifikat-pmw-2025.pdf" 
+       target="_blank">
+       View Certificate
+    </a>
+  </div>
+  </div> <!-- /timeline -->
+</section>
+
+
+
+        <!-- EXPERIENCE -->
+    <section id="experience" class="section">
+      <div class="section-head reveal">
+        <h2>Experience</h2>
+      </div>
+  <!-- 1. Data Analyst Intern -->
+  <div class="t-item reveal">
+    <div class="t-dot"></div>
+    <div class="t-card">
+      <div class="t-top">
+        <h3>Data Analyst Intern — PT Medina Multi Mitra</h3>
+        <span class="t-year">Feb 2026 – Mar 2026 | WFA</span>
+      </div>
+      <ul class="nice">
+        <li>Handled data cleaning & preprocessing</li>
+        <li>Ensured data consistency & quality control</li>
+        <li>Prepared structured master dataset for system import</li>
+        <li>Performed post-import data validation</li>
+      </ul>
+    </div>
+  </div>
+
+  
+
+  <div class="t-item reveal">
+  <div class="t-dot"></div>
+  <div class="t-card">
+    <div class="t-top">
+      <h3>Volunteer — MIPA Lentera</h3>
+      <span class="t-year">August 2025</span>
+    </div>
+    <ul class="nice">
+      <li>Participated in educational outreach program</li>
+      <li>Collaborated with student organization team</li>
+      <li>Contributed to academic mentoring activities</li>
+    </ul>
+  </div>
+</div>
+
+
+  <!-- 2. Teaching Assistant -->
+  <div class="t-item reveal">
+    <div class="t-dot"></div>
+    <div class="t-card">
+      <div class="t-top">
+        <h3>Teaching Assistant — Statistical Methods</h3>
+        <span class="t-year">Gasal 2025/2026</span>
+      </div>
+      <ul class="nice">
+        <li>Officially appointed by FMIPA UNSOED</li>
+        <li>Guided students in statistical data analysis</li>
+        <li>Assisted evaluation of practical assignments</li>
+      </ul>
+    </div>
+  </div>
+
+
+
+  <!-- 3. Ketua STAR -->
+  <div class="t-item reveal">
+    <div class="t-dot"></div>
+    <div class="t-card">
+      <div class="t-top">
+        <h3>Head of Event — Statistika Training & Regeneration (STAR)</h3>
+        <span class="t-year">2025</span>
+      </div>
+      <ul class="nice">
+        <li>Led planning and execution of regeneration program</li>
+        <li>Coordinated cross-division committees</li>
+        <li>Ensured strategic and technical success of the event</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- 4. Wakil Ketua -->
+  <div class="t-item reveal">
+    <div class="t-dot"></div>
+    <div class="t-card">
+      <div class="t-top">
+        <h3>Vice Chair — Statistics Student Association</h3>
+        <span class="t-year">2025</span>
+      </div>
+      <ul class="nice">
+        <li>Coordinated organizational divisions</li>
+        <li>Monitored and evaluated program performance</li>
+        <li>Supported strategic decision-making</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- 5. Sponsorship -->
+  <div class="t-item reveal">
+    <div class="t-dot"></div>
+    <div class="t-card">
+      <div class="t-top">
+        <h3>Sponsorship Division — Makrab “Starry Night”</h3>
+        <span class="t-year">2025</span>
+      </div>
+      <ul class="nice">
+        <li>Prepared sponsorship proposals</li>
+        <li>Negotiated partnership agreements</li>
+        <li>Maintained sponsor relations during event</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- 6. Presidium -->
+  <div class="t-item reveal">
+    <div class="t-dot"></div>
+    <div class="t-card">
+      <div class="t-top">
+        <h3>Presidium — Research & Scientific Community</h3>
+        <span class="t-year">2024–2025</span>
+      </div>
+      <ul class="nice">
+        <li>Led formal discussion forums</li>
+        <li>Ensured structured and neutral decision-making process</li>
+      </ul>
+    </div>
+  </div>
+
+</div>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section">
+      <div class="section-head reveal">
+        <h2>Contact</h2>
+      </div>
+
+      <div class="grid two">
+        <div class="panel reveal">
+          <h3>Reach me</h3>
+          <p class="muted">Email dan LinkedIn kamu.</p>
+          <div class="contact-list">
+            <a class="contact-item" href="mailto:annekealyas@gmail.com">
+              <span class="c-ico">✉</span>
+              <span>
+                <b>Email</b><br />
+                <span class="muted">annekealyas@gmail.com</span>
+              </span>
+            </a>
+            <a class="contact-item" href="https://www.linkedin.com/in/anne-statistika" target="_blank" rel="noreferrer">
+              <span class="c-ico">in</span>
+              <span>
+                <b>LinkedIn</b><br />
+                <span class="muted">linkedin.com/in/anne-statistika</span>
+              </span>
+            </a>
+          </div>
+        </div>
+
+        
+
+    <footer class="footer">
+      <div class="footer-inner">
+        <p>© <span id="year"></span> Anneke Alya Shantika • Built with VS Code</p>
+        <button class="icon-btn top" id="toTop" aria-label="Back to top">↑</button>
+      </div>
+    </footer>
+  </main>
+
+  <!-- MODAL (reusable) -->
+  <div class="modal" id="modal" aria-hidden="true">
+    <div class="modal-card" role="dialog" aria-modal="true" aria-label="Preview modal">
+      <div class="modal-top">
+        <div>
+          <b id="modalTitle">Title</b>
+          <div class="muted" id="modalTags"></div>
+        </div>
+        <button class="icon-btn" id="modalClose" aria-label="Close">✕</button>
+      </div>
+      <div class="modal-body">
+        <div class="modal-img" id="modalImg"></div>
+        <p class="muted" id="modalDesc"></p>
+        <a class="btn small" id="modalLink" href="#" target="_blank" rel="noreferrer">Open Link</a>
+      </div>
+    </div>
+    <div class="modal-backdrop" id="modalBackdrop" aria-hidden="true"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
